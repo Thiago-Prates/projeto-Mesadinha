@@ -1,0 +1,31 @@
+.container {
+  height: 300px;
+}
+h3 {
+  padding-bottom: 0px;
+}
+
+
+.valores {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.valor {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-radius: 7px;
+  text-align: center;
+
+  padding: 10px;
+  background: #ffffff;
+}
+.valor h2 {
+  font-weight: bold;
+}
+.valor p {
+  font-size: 24px;
+}
